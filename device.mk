@@ -32,7 +32,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
 	NoCutoutOverlay \
-    AvoidAppsInCutoutOverlay
+    AvoidAppsInCutoutOverlay \
+    SettingsResNairo
 
 # Audio
 PRODUCT_PACKAGES += \

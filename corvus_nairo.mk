@@ -24,6 +24,9 @@ $(call inherit-product, device/motorola/nairo/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
+# Target
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := corvus_nairo
 PRODUCT_DEVICE := nairo

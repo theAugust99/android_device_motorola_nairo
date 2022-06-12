@@ -24,6 +24,9 @@ $(call inherit-product, device/motorola/nairo/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
+ # Corvus
+CORVUS_MAINTAINER := Phantom
+
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_FACE_UNLOCK := true

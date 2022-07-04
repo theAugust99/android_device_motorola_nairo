@@ -20,6 +20,7 @@ DEVICE_PATH := device/motorola/nairo
 
 # Display
 TARGET_SCREEN_DENSITY := 420
+USE_OPENGL_RENDERER := true
 
 # FM
 BOARD_HAVE_QCOM_FM := true
